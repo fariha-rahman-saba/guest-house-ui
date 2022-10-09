@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/Footer';
 import Front from '../components/Front'
+import Navbar from '../components/Navbar';
 
 export default function Home() {
   return (
@@ -12,8 +14,9 @@ export default function Home() {
       </Head>
 
       <main >
-        <Front></Front>
-
+        <Navbar/>
+        <Front/>
+        <Footer/>
       </main>
 
       <footer >
