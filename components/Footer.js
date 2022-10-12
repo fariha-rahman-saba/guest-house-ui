@@ -18,10 +18,10 @@ const Footer = () => {
             <input
               type="text"
               placeholder="username@site.com"
-              className="input input-bordered w-full pr-16"
+              className="input input-bordered bg-white w-full pr-16"
             />
-            <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
-              Subscribe
+            <button className="btn bg-blue-500 text-white absolute top-0 right-0 rounded-l-none">
+              Send
             </button>
           </div>
         </div>
