@@ -2,7 +2,7 @@ import React from "react";
 
 const Booking = () => {
   return (
-    <div className="flex justify-between w-11/12 mx-auto mt-20">
+  <div className="flex justify-between pl-20 pr-20 pt-20 mx-auto">
       <div className="w-1/2 h-50 mr-10  ">
         <h1 className="text-5xl font-bold mb-10">
           Confort in <br />

@@ -2,13 +2,13 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar w-11/12 mb-10">
+    <div className="navbar p-8 absolute flex flex-row items-center text-white">
       <div className="navbar-start">
         <a className="btn btn-ghost normal-case text-xl">
           <span className="text-blue-500 mr-1">UK</span> House
         </a>
       </div>
-      <div className="navbar-end hidden lg:flex">
+      <div className="navbar-center">
         <ul className="menu menu-horizontal ">
           <li>
             <a>Photo gallery</a>
@@ -25,6 +25,8 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+
+      <div className="navbar-end">+4 900 000 57 88 </div>
     </div>
   );
 };

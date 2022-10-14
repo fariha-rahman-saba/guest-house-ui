@@ -2,9 +2,9 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div>
-      <h1 className="text-7xl flex justify-center pt-10 pb-8">Contacts us</h1>
-      <p className=" pt-10 pb-20 w-full p-20">
+    <div className=" pb-10">
+      <h1 className="text-7xl flex justify-center pt-10 pb-5">Contacts us</h1>
+      <p className=" pt-10 pb-10 w-full p-20">
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout. The point of
         using Lorem Ipsum is that it has a more-or-less normal distribution of
@@ -26,19 +26,19 @@ const ContactUs = () => {
 
         <input
           type="text"
-          placeholder="Type here"
+          placeholder="Your Name"
           className="input input-bordered input-info w-1/2 bg-black text-gray-400"
         />
         <br />
         <input
           type="text"
-          placeholder="Type here"
+          placeholder="Your Email"
           className="input input-bordered input-info w-1/2 bg-black text-gray-400"
         />
         <br />
         <textarea
           className="textarea textarea-info w-1/2 bg-black"
-          placeholder="Bio"
+          placeholder="You Message"
         ></textarea>
         <br />
         <button className="  py-4 px-7 rounded-xl btn w-1/2  bg-blue-500  text-white font-semibold flex">

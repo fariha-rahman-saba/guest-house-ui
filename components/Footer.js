@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer text-base-content">
+    <footer className="footer text-base-content w-11/12 p-5 mx-auto">
       <div>
-        <div className=" ml-2 font-bold text-xl">
+        <div className=" font-bold text-xl">
           <span className="text-blue-500 mr-1">UK</span> House
         </div>
 

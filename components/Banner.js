@@ -2,12 +2,15 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="w-11/12 mx-auto  items-center justify-around ">
-      <div className="bg-[url('/banner.png')]"></div>
-      <button className="  py-2 px-7 rounded-xl border   text-white font-semibold flex hover:cursor-default">
-        Guest House
-      </button>
-      <div className="space-y-4">
+    <section
+      className="   h-screen 
+    bg-[url('/banner.png')] bg-cover flex  items-center   "
+    >
+        {/* <button className="  py-2 px-7 rounded-xl border   text-white font-semibold flex hover:cursor-default">
+          Guest House
+        </button> */}
+
+      <div className="space-y-4 m-20 ">
         <h1 className="text-7xl font-bold">
           <span className="text-blue-500">Guest house by </span>
           <br />
