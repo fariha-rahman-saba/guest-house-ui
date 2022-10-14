@@ -3,9 +3,14 @@ import React from "react";
 const Reviews = () => {
   return (
     <div className="bg-black ">
-      <h1 className=" mx-auto flex justify-center items-center mb-5 text-7xl text-white font-semibold">
-        Read reviews our <br /> guests
-      </h1>
+      <div className="p-2">
+        <h1 className=" mx-auto flex justify-center items-center mb-5 text-7xl text-white">
+          Read reviews our
+        </h1>
+        <h1 className=" mx-auto flex justify-center items-center mb-5 text-7xl text-white">
+          guests
+        </h1>
+      </div>
 
       {/* inputs */}
 

@@ -1,29 +1,12 @@
 import React from "react";
-import backgroundImg from "../public/img/banner.png";
 
 const Banner = () => {
   return (
-    //       <div className="hero min-h-screen" style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}>
-    //   <div className="hero-overlay bg-opacity-40"></div>
-    //   <div className="hero-content  text-neutral-content">
-    //     <div className="max-w-md">
-    //       <h1 className="mb-5 text-5xl font-bold">
-    //         <span>Guest house by </span>
-    //         <span>the lake</span>
-    //       </h1>
-    //       <p className="mb-5">The parfect place to stay as a couple in nature</p>
-    //       <button className="btn btn-primary">Get Started</button>
-    //     </div>
-    //   </div>
-    // </div>
-    <section
-      className=" mx-auto  items-center justify-around "
-      style={{ backgroundImage: `url(${backgroundImg})` }}
-    >
-      <button className="  py-4 px-7 rounded-xl btn btn-outline btn-info  text-white font-semibold flex">
-            Guest House
-            
-          </button>
+    <section className="w-11/12 mx-auto  items-center justify-around ">
+      <div className="bg-[url('/banner.png')]"></div>
+      <button className="  py-2 px-7 rounded-xl border   text-white font-semibold flex hover:cursor-default">
+        Guest House
+      </button>
       <div className="space-y-4">
         <h1 className="text-7xl font-bold">
           <span className="text-blue-500">Guest house by </span>
@@ -51,7 +34,7 @@ const Banner = () => {
             </svg>
           </button>
 
-          <button className="  py-4 px-7 rounded-xl btn btn-outline btn-info text-white font-semibold flex">
+          <button className="  py-4 px-7 rounded-xl  btn-outline hover:bg-blue-500 hover:text-white font-semibold flex border">
             Call Now
             <svg
               xmlns="http://www.w3.org/2000/svg"

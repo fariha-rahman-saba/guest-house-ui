@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Banner from "../components/Banner";
+import Booking from "../components/Booking";
 import ContactUs from "../components/ContactUs";
 import Discount from "../components/Discount";
 import Footer from "../components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
         <header className="container pb-32 pt-12 bg-black">
           <Navbar />
           <Banner />
+          <Booking />
         </header>
 
         <main className="container bg-black">

@@ -3,10 +3,14 @@ import React from "react";
 const Discount = () => {
   return (
     <div className="bg-black ">
-      <h1 className=" mx-auto flex justify-center items-center mb-5 text-7xl text-white">
-        Get 15% discount when <br />
-        booking online
-      </h1>
+      <div className="p-2">
+        <h1 className=" mx-auto flex justify-center items-center mb-5 text-7xl text-white">
+          Get 15% discount when
+        </h1>
+        <h1 className=" mx-auto flex justify-center items-center mb-5 text-7xl text-white">
+          booking online
+        </h1>
+      </div>
 
       <div className=" mx-auto flex flex-col  justify-center items-center ">
         <select className="select select-info w-1/2   mx-auto flex justify-center items- mb-5 bg-black text-gray-400">

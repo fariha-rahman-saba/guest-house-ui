@@ -4,7 +4,10 @@ const Footer = () => {
   return (
     <footer className="footer text-base-content">
       <div>
-        <span className="footer-title m-2 mb-2">UK house</span>
+        <div className=" ml-2 font-bold text-xl">
+          <span className="text-blue-500 mr-1">UK</span> House
+        </div>
+
         <div className="form-control w-80">
           {/* <label className="label">
         <span className="label-text">Enter your email address</span>

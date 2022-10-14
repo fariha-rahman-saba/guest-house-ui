@@ -16,6 +16,36 @@ const ContactUs = () => {
         sometimes on purpose (injected humour and the like).
       </p>
       {/* map */}
+
+      {/* form */}
+
+      <div className="flex flex-col items-center">
+        <p className="">If You Have Any Question</p>
+
+        <br />
+
+        <input
+          type="text"
+          placeholder="Type here"
+          className="input input-bordered input-info w-1/2 bg-black text-gray-400"
+        />
+        <br />
+        <input
+          type="text"
+          placeholder="Type here"
+          className="input input-bordered input-info w-1/2 bg-black text-gray-400"
+        />
+        <br />
+        <textarea
+          className="textarea textarea-info w-1/2 bg-black"
+          placeholder="Bio"
+        ></textarea>
+        <br />
+        <button className="  py-4 px-7 rounded-xl btn w-1/2  bg-blue-500  text-white font-semibold flex">
+          Send Message
+        </button>
+        <br />
+      </div>
     </div>
   );
 };
